@@ -36,6 +36,8 @@ int main(int argc, char *argv[])
                 goto error;
         }
 
+        sleep(10);
+
 error:
         close(fd);
         return ret;
